@@ -1,0 +1,95 @@
+.table {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table .table-title {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10.5px;
+}
+
+.table .table-content {
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table .table-content thead {
+    background-color: #272727;
+}
+
+.table .table-content thead th:nth-of-type(1) {
+    width: 5%;
+}
+
+.table .table-content thead th:nth-of-type(1) i {
+    margin-left: 3px;
+    color: #0ce3ac;
+    cursor: pointer;
+}
+
+.table .table-content thead th:nth-of-type(2) {
+    width: 20%;
+}
+
+.table .table-content thead .type {
+    width: 12%;
+}
+
+.table .table-content thead .difficulty {
+    width: 5%;
+}
+
+.table .table-content thead .question {
+    width: 48%;
+}
+
+.table .table-content thead .created-by {
+    width: 10%;
+}
+
+.table .table-content tbody {
+    background-color: #1a1a1a;
+}
+
+.table .table-content td,
+.table .table-content th {
+    border: 1px solid #3d3c3c;
+    padding: 8px 10px;
+}
+
+.table .table-content th {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.table .table-content td {
+    text-transform: capitalize;
+}
+
+.table .pagination {
+    list-style: none;
+    display: flex;
+    border-radius: 6px;
+    background-color: #00bc8c;
+    overflow: hidden;
+}
+
+.table .pagination .active {
+    background-color: #0ce3ac;
+}
+
+.table .pagination li {
+    padding: 10px 25px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.table .pagination li:hover {
+    background-color: #0ce3ac;
+    transition: 0.5s;
+}
