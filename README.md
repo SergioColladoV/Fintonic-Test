@@ -1,6 +1,7 @@
 # Fintonic-Test
 
-Prueba Técnica Fintonic
+Technical Test Fintonic - Questions  
+[Styled Components Version](https://github.com/SergioColladoV/Fintonic-Test-SC)
 
 ## Installation
 
