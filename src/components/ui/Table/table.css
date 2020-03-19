@@ -22,17 +22,17 @@
     background-color: #272727;
 }
 
-.table .table-content thead th:nth-of-type(1) {
+.table .table-content thead .id {
     width: 5%;
 }
 
-.table .table-content thead th:nth-of-type(1) i {
+.table .table-content thead .id i {
     margin-left: 3px;
     color: #0ce3ac;
     cursor: pointer;
 }
 
-.table .table-content thead th:nth-of-type(2) {
+.table .table-content thead .category {
     width: 20%;
 }
 
