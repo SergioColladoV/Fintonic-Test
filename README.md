@@ -29,3 +29,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Avoid using dependencies to decode HTML5 Entities that the API returns to improve performance. Make the decoding with pure javascript.
 * Make pagination works with a maximum of 50 API results (5 Pages)
 * Put order of IDs into operation
+* When filtering, call the API to get results of the entire API, not just the current page
